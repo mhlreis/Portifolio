@@ -1,0 +1,22 @@
+div.image_top{
+    resize: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+div.corpo{
+    padding: 0;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+div.foto_home{
+    display: inline-block;
+    margin: auto;
+}
+
+div.dados_home{
+    display: inline-block;
+    align-content: end;
+}
