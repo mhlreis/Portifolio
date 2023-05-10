@@ -1,10 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "base.html" %}
 
-</body>
-</html>
+{% block conteudo %}
+
+<div class="galeria">
+    <div class="galeria-img">
+        <a target="_blank" href="../static/img/API.png">
+            <img height="200px" width="300px" src="../static/img/API.png" alt="SYNTAX-SQUAD" >
+        </a>
+        <div class="legenda">Projeto API</div>
+    </div>
+    <div class="galeria-img">
+        <a target="_blank" href="../static/img/portifolio.png">
+            <img height="200px" width="300px" src="../static/img/portifolio.png">
+        </a>
+        <div class="legeda">Portifólio</div>
+    </div>
+    <div class="galeria-img">
+        <a target="_blank" href="../static/img/GITHUB.png">
+            <img height="200px" width="300px" src="../static/img/GITHUB.png">
+        </a>
+        <div class="legenda">Meu GitHub</div>
+    </div>
+</div>
+
+{% endblock %}

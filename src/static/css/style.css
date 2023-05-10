@@ -1,22 +1,61 @@
 div.image_top{
-    resize: block;
-    margin-right: auto;
-    margin-left: auto;
+    text-align: center;
+}
+
+div.menu{
+    color: white;
+    text-align: justify-all;
+    background-color: darkgrey;
+    height: 50px;
+
+}
+
+div.dados_home{
+    display: block;
+    position: fixed;
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 600px;
+    height: 450px;
+    background-color: darkgrey;
+
+
+}
+
+div.pedra{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 25px;
 
 }
 
 div.corpo{
     padding: 0;
     margin: 0 auto;
-    width: 1000px;
+}
+div.galeria{
+    background-color: darkgrey;
+    height: 600px;
+    width: 1920px;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+div.galeria-img{
+    border-radius: 25px;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
 }
 
-div.foto_home{
-    display: inline-block;
-    margin: auto;
+div.legeda{
+    padding: 15px;
+    text-align: center;
 }
 
-div.dados_home{
-    display: inline-block;
-    align-content: end;
+div.galeria:hover{
+    border: 1px solid #777;
 }
