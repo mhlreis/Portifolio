@@ -36,18 +36,18 @@ div.corpo{
     margin: 0 auto;
 }
 div.galeria{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
     background-color: darkgrey;
-    height: 600px;
-    width: 1920px;
     margin: 10px;
     border-radius: 15px;
+    border: solid 1px black;
 
 }
 div.galeria-img{
-    border-radius: 25px;
-    border: 1px solid black;
-    border-radius: 25px;
-    width: 100%;
+    
+    width: 40%;
     height: auto;
 }
 
