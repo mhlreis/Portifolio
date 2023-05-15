@@ -35,7 +35,19 @@ div.corpo{
     padding: 0;
     margin: 0 auto;
 }
-div.galeria{
+
+div.galeria-ph{
+    background-color: darkgrey;
+    margin: 10px;
+    border: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200%;
+    width: auto;
+    
+}
+
+div.galeria-cv{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -45,11 +57,11 @@ div.galeria{
     border: solid 1px black;
 
 }
-div.galeria-img{
+/* div.galeria-img{
     
-    width: 40%;
-    height: auto;
-}
+    width: 20%;
+    height: 20%;
+} */
 
 div.legeda{
     padding: 15px;
